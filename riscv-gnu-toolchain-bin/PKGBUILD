@@ -3,9 +3,9 @@
 # 
 pkgname=riscv-gnu-toolchain-bin
 # To maintain, simply change the nightly date: https://github.com/riscv-collab/riscv-gnu-toolchain/releases
-pkgver=2022.10.11
-_target=12.2.0
-_pkg_prefix=ubuntu-20.04-nightly
+pkgver=2024.4.12
+_target=13.2.0
+_pkg_prefix=ubuntu-22.04-nightly
 pkgrel=1
 pkgdesc="GNU toolchain for RISC-V, including GCC. Precompiled riscv64-unknown-elf-gcc, riscv32-unknown-elf-gcc, riscv64-unknown-linux-gnu-gcc, and riscv32-unknown-linux-gnu-gcc."
 arch=('x86_64' 'aarch64' 'i386')
